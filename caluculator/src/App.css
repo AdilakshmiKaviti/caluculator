@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height:100vh;
+}
+.output{
+  width:330px;
+  height:70px;
+  font-size:26px;
+  background-color: black;
+  color:white;
+  text-align: right;
+  padding:5px;
+  margin:3px;
+ 
+  
+}
+button{
+  height:70px;
+  width:85px;
+  padding:5px;
+  border-top: 5px solid black;
+  border-right: 5px solid rgb(0, 0, 0);
+  color:green;
+  font-size: 20px;
+  cursor:pointer;
+}
+.operator{
+  border-right: none;
+  background-color:yellowgreen;
+}
+.digit:hover{
+  background-color:burlywood;
+}
